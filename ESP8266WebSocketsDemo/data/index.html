@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ESP8266 Websockets Demonstration</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Canvas which will contain the dial -->
+    <canvas id="dial"></canvas>
+
+    <!-- Slider to control the servo -->
+    <input class="slider" type="range" min="10" max="170" step="1" oninput="sendDegrees(this.value)"/>
+
+    <!-- Include our js file at the bottom -->
+    <script src="main.js"></script>
+  </body>
+</html>
