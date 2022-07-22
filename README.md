@@ -1,7 +1,7 @@
 # About
 This project uses an ESP8266 to host a super quick, WebSockets based, user interface.
 
-[Link to project page](https://www.benhegarty.com/project/ultra-reponsive-iot-web-interface)
+[Youtube Video Demo](https://www.youtube.com/watch?v=jFhkxL-Fyv8)
 
 ## Requirements
 - An ESP8266
